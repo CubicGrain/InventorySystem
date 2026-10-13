@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Inventory.generated.h"
 
+
 UCLASS()
 class INVENTORYSYSTEM_API AInventory : public AActor
 {
