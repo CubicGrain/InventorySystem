@@ -4,17 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Inventory.generated.h"
-
+#include "Item.generated.h"
 
 UCLASS()
-class INVENTORYSYSTEM_API AInventory : public AActor
+class INVENTORYSYSTEM_API AItem : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AInventory();
+	AItem();
 
 protected:
 	// Called when the game starts or when spawned
