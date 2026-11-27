@@ -4,13 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Runtime/UMG/Public/UMG.h"
+#include "Slate.h"
+#include "GenericStructs.h"
 #include "AC_InventoryComponent.generated.h"
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class INVENTORYSYSTEM_API UAC_InventoryComponent : public UActorComponent
+class INVENTORYSYSTEMPLUS_API UAC_InventoryComponent : public UActorComponent
 {
 	GENERATED_BODY()
+
+	
 
 public:	
 	// Sets default values for this component's properties
@@ -23,6 +28,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
 
 		
 };

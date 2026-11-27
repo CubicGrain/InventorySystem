@@ -7,7 +7,7 @@
 #include "Item.generated.h"
 
 UCLASS()
-class INVENTORYSYSTEM_API AItem : public AActor
+class INVENTORYSYSTEMPLUS_API AItem : public AActor
 {
 	GENERATED_BODY()
 	
